@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const NavigationLink = ({bgc}) => {
   return (
     <Container style={{backgroundColor: `${bgc && bgc}`}}>
-      <Link to="/home" className="link">
+      <Link to="/" className="link">
         Home
       </Link>
       <Link className="link">My Profile</Link>
-      <Link className="link">About the JAA</Link>
+      <Link to='/about' className="link">About the JAA</Link>
       <Link className="link">Alumni Services</Link>
       <Link className="link">Volunteer</Link>
       <Link className="link">Help</Link>

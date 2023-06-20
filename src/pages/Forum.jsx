@@ -9,11 +9,13 @@ import ContentContainer from "../components/ContentContainer";
 import UsersContainer from "../components/UsersContainer";
 import UserCard from "../components/UserCard";
 import user1 from "../assets/img/user1.png";
+import { useNavigate } from "react-router";
 
 const Forum = () => {
   const [searchQuery, setSearchQuery] = useState();
   const [isActive, setActive] = useState(false);
   const [isMobile, setMobile] = useState(false);
+  const navigation = useNavigate()
 
   const content = {
     title: "Some exciting news!",
@@ -51,6 +53,10 @@ const Forum = () => {
 
     setSearchQuery("");
   };
+
+  const goToPostCreatePage =()=>{
+    navigation("/createpost")
+  }
   return (
     <Container>
       <Header />
@@ -74,7 +80,7 @@ const Forum = () => {
 
                 {window.innerWidth < 668 && (
                   <div className="buttons">
-                    <Button name={"Create Post"} bgc={"#33367f"} />
+                    <Button name={"Create Post"} bgc={"#33367f"} onclickFuction={goToPostCreatePage}/>
                     <h4 className="friends" onClick={handleActive}>
                       Friends
                     </h4>
@@ -158,7 +164,7 @@ const Forum = () => {
                 </ContentContainer>
               </div>
               <div className={`column right`}>
-                <Button name={"Create Post"} bgc={"#33367f"} />
+                <Button name={"Create Post"} bgc={"#33367f"} onclickFuction={goToPostCreatePage}/>
                 <UsersContainer title={"Friends"} />
                 <UsersContainer title={"Top Posters"} />
               </div>

@@ -32,11 +32,11 @@ const Header = () => {
           </div>
         </div>
         <div className={"header_bottom_middle"}>
-          <p className="menu_item link">ABOUT</p>
-          <p className="menu_item link">JOIN</p>
-          <p className="menu_item link">NOTICES</p>
-          <p className="menu_item link">OPPORTUNITIES</p>
-          <p className="menu_item link">SERVICES</p>
+          <Link to='/about' className="menu_item link">ABOUT</Link>
+          <Link className="menu_item link">JOIN</Link>
+          <Link className="menu_item link">NOTICES</Link>
+          <Link className="menu_item link">OPPORTUNITIES</Link>
+          <Link className="menu_item link">SERVICES</Link>
         </div>
         <div className={active ? "mobile_menu active" : "mobile_menu"}>
           <div
@@ -44,11 +44,11 @@ const Header = () => {
             style={{ backgroundImage: `url(${cancelIcon})` }}
             onClick={activeSideBar}
           ></div>
-          <p className="menu_item link">ABOUT</p>
-          <p className="menu_item link">JOIN</p>
-          <p className="menu_item link">NOTICES</p>
-          <p className="menu_item link">OPPORTUNITIES</p>
-          <p className="menu_item link">SERVICES</p>
+          <Link to='/about' className="menu_item link">ABOUT</Link>
+          <Link className="menu_item link">JOIN</Link>
+          <Link className="menu_item link">NOTICES</Link>
+          <Link className="menu_item link">OPPORTUNITIES</Link>
+          <Link className="menu_item link">SERVICES</Link>
         </div>
         <div className="header_bottom_right">
           <div className="menu_btn btn" onClick={activeSideBar}>
@@ -120,7 +120,9 @@ const Container = styled.div`
       align-items: center;
       justify-content: center;
       gap: 26px;
-      p.menu_item {
+      a.menu_item {
+        all: unset;
+        cursor: pointer;
         font-family: "Open Sans";
         font-style: normal;
         font-weight: 400;
@@ -147,6 +149,7 @@ const Container = styled.div`
         right: 0;
       }
       .menu_item {
+        all: unset;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;

@@ -37,8 +37,8 @@ const Container = styled.label`
   }
   @media screen and (max-width: 1024px) {
     input {
-      margin-bottom: 20px !important;
-      font-size: 18px !important;
+      margin-bottom: 20px ;
+      font-size: 18px ;
     }
   }
   @media screen and (max-width: 668px) {

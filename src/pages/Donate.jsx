@@ -87,7 +87,7 @@ const Container = styled.div`
       }
     }
   }
-  @media screen and (max-width: 668px) {
+  @media screen and (max-width: 368px) {
     .main {
 
     }
