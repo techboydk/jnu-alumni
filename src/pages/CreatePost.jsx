@@ -18,6 +18,11 @@ const CreatePost = () => {
     setContent("");
     setTitle("");
   };
+  const handleCancel = (e) => {
+    e.preventDefault();
+    window.history.back();
+  };
+
   return (
     <Container>
       <Header />
@@ -44,7 +49,12 @@ const CreatePost = () => {
                 required
               />
             </div>
-            <Button name={"Publish"} bgc={"#33367f"}/>
+            <div className="buttons">
+              <span onClick={handleCancel}>
+                <Button name={"Cancel"} bgc={"#33367f"} />
+              </span>
+              <Button name={"Publish"} bgc={"#33367f"} />
+            </div>
           </form>
         </ContentContainer>
       </div>

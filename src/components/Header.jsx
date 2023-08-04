@@ -27,15 +27,21 @@ const Header = () => {
             <img src={jnuLogo} alt="" />
           </div>
           <div className="content">
-            <p className="txt_title">JNU Alumni Association (Rtd.)</p>
+            <p className="txt_title">JNU thoughts</p>
             <p className="name">Jawaharlal Nehru University</p>
           </div>
         </div>
         <div className={"header_bottom_middle"}>
-          <Link to='/about' className="menu_item link">ABOUT</Link>
-          <Link className="menu_item link">JOIN</Link>
+          <Link to="/thoughts" className="menu_item link">
+            Thoughts
+          </Link>
+          <Link to="/register" className="menu_item link">
+            JOIN
+          </Link>
           <Link className="menu_item link">NOTICES</Link>
-          <Link className="menu_item link">OPPORTUNITIES</Link>
+          <Link to="/opportunities" className="menu_item link">
+            OPPORTUNITIES
+          </Link>
           <Link className="menu_item link">SERVICES</Link>
         </div>
         <div className={active ? "mobile_menu active" : "mobile_menu"}>
@@ -44,7 +50,9 @@ const Header = () => {
             style={{ backgroundImage: `url(${cancelIcon})` }}
             onClick={activeSideBar}
           ></div>
-          <Link to='/about' className="menu_item link">ABOUT</Link>
+          <Link to="/thoughts" className="menu_item link">
+            Thoughts
+          </Link>
           <Link className="menu_item link">JOIN</Link>
           <Link className="menu_item link">NOTICES</Link>
           <Link className="menu_item link">OPPORTUNITIES</Link>
@@ -107,6 +115,7 @@ const Container = styled.div`
           font-weight: 600;
           font-size: 20px;
           color: rgb(29, 31, 90);
+          text-transform: capitalize;
         }
         .name {
           font-weight: 400;
@@ -129,6 +138,7 @@ const Container = styled.div`
         font-size: 18px;
         line-height: 34px;
         color: #000000;
+        text-transform: uppercase;
       }
     }
     .mobile_menu {

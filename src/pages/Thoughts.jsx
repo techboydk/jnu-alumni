@@ -5,23 +5,45 @@ import Footer from "../components/Footer";
 import PageHeading from "../components/PageHeading";
 import NavigationLink from "../components/NavigationLink";
 import ContentContainer from "../components/ContentContainer";
+import Thought from "../components/Thought";
 
-const Feed = () => {
+const Thoughts = () => {
+  const thoughts = [
+    {
+      name: "dipesh yadav",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      description: "description",
+    },
+    {
+      name: "dipesh yadav",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      description: "description",
+    },
+    {
+      name: "dipesh yadav",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      description: "description",
+    },
+    {
+      name: "dipesh yadav",
+      image:
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      description: "description",
+    },
+  ];
   return (
     <Container>
       <Header />
       <div className="main">
-        <PageHeading title="Feed" />
+        <PageHeading title="Thoughts" />
         <div className="columns">
           <div className="column left">
-            <ContentContainer />
-            <ContentContainer />
-            <ContentContainer />
-            <ContentContainer />
-            <ContentContainer />
-          </div>
-          <div className="column right">
-            <NavigationLink bgc="#F5F5F5" />
+            {thoughts.map((thought, index) => {
+              return <Thought key={index} thought={thought} />;
+            })}
           </div>
         </div>
       </div>
@@ -30,7 +52,7 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default Thoughts;
 const Container = styled.div`
   .main {
     display: flex;

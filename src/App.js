@@ -6,7 +6,7 @@ import Register from './pages/Register';
 import Donate from './pages/Donate';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
-import Feed from './pages/Feed';
+import Thoughts from './pages/Thoughts';
 import Opportunities from './pages/Opportunities';
 import Forum from './pages/Forum';
 import About from './pages/About';
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/register' element={<Register />} />
         <Route path='/donate' element={<Donate />} />
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/feed' element={<Feed />} />
+        <Route path='/thoughts' element={<Thoughts />} />
         <Route path='/opportunities' element={<Opportunities />} />
         <Route path='/forum' element={<Forum />} />
         <Route path='/about' element={<About />} />
