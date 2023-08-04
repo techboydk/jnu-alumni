@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/jnu-alumni/static/css/main.1163efd8.css",
+    "main.js": "/jnu-alumni/static/js/main.6b19b2c7.js",
+    "static/media/donate_bg.png": "/jnu-alumni/static/media/donate_bg.0f4ff91ab5f40492a518.png",
+    "static/media/bg_img1.png": "/jnu-alumni/static/media/bg_img1.73155c6ee6ad1d49e43d.png",
+    "static/media/bg_img2.png": "/jnu-alumni/static/media/bg_img2.cae6baf0269bba4ffff7.png",
+    "static/media/crousel_img1.png": "/jnu-alumni/static/media/crousel_img1.28616f9e2083c2740273.png",
+    "static/media/img1.png": "/jnu-alumni/static/media/img1.91ef426fc0180163bac3.png",
+    "static/media/crousel_img2.png": "/jnu-alumni/static/media/crousel_img2.0352331dfcdad8e8a115.png",
+    "static/media/crousel_img3.png": "/jnu-alumni/static/media/crousel_img3.0e43c2c06d38eb2e8b2a.png",
+    "static/media/img2.png": "/jnu-alumni/static/media/img2.23a2fe2e06a22094fdbe.png",
+    "static/media/img3.png": "/jnu-alumni/static/media/img3.5e2bdbad27fef0cf039c.png",
+    "static/media/img4.png": "/jnu-alumni/static/media/img4.02fc400c5ee4c0de95a1.png",
+    "static/media/logo.svg": "/jnu-alumni/static/media/logo.2b28dc90080533dbf4938550ddd6f4e3.svg",
+    "static/media/Abhijit Banerjee.png": "/jnu-alumni/static/media/Abhijit Banerjee.39a843bc985fee163fdc.png",
+    "static/media/S. Jaishankar.png": "/jnu-alumni/static/media/S. Jaishankar.ac9a24f7a033f88311f4.png",
+    "static/media/nirmala_sitaraman.png": "/jnu-alumni/static/media/nirmala_sitaraman.98f3718fbba09131cba8.png",
+    "static/media/google.svg": "/jnu-alumni/static/media/google.3a3082b4d5c756024ce0a130e73c41d6.svg",
+    "static/media/logo2.svg": "/jnu-alumni/static/media/logo2.1c587fb270a7f4bc84003ab15dff18ab.svg",
+    "static/media/twitter.svg": "/jnu-alumni/static/media/twitter.009491d6fab15fb9e40db63cc5818a96.svg",
+    "static/media/Like icon.svg": "/jnu-alumni/static/media/Like icon.3ae159ac2e690d205465cd51be25bb18.svg",
+    "static/media/location.svg": "/jnu-alumni/static/media/location.f7503879f22ee7b12347605d094f51c5.svg",
+    "static/media/cancel.svg": "/jnu-alumni/static/media/cancel.4b5d6246b6f99ffb9e3f56ab2d70c07f.svg",
+    "static/media/phone.svg": "/jnu-alumni/static/media/phone.b1ec2a6a795aa1b56f132fe6537f8958.svg",
+    "index.html": "/jnu-alumni/index.html",
+    "static/media/Burger.svg": "/jnu-alumni/static/media/Burger.30529b784623b788ef32c2e452b027a8.svg",
+    "static/media/mail.svg": "/jnu-alumni/static/media/mail.d778af22b582abb94ec95ca580fb387b.svg",
+    "static/media/searchIcon.svg": "/jnu-alumni/static/media/searchIcon.6b0393ddaa745bae83fce37c66968553.svg",
+    "static/media/Comment icon.svg": "/jnu-alumni/static/media/Comment icon.99981409f0a9109ab88d7453e10daf7b.svg",
+    "main.1163efd8.css.map": "/jnu-alumni/static/css/main.1163efd8.css.map",
+    "main.6b19b2c7.js.map": "/jnu-alumni/static/js/main.6b19b2c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1163efd8.css",
+    "static/js/main.6b19b2c7.js"
+  ]
+}
