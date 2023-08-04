@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jnu-alumni/static/css/main.1163efd8.css",
-    "main.js": "/jnu-alumni/static/js/main.6b19b2c7.js",
+    "main.js": "/jnu-alumni/static/js/main.93aa0378.js",
     "static/media/donate_bg.png": "/jnu-alumni/static/media/donate_bg.0f4ff91ab5f40492a518.png",
     "static/media/bg_img1.png": "/jnu-alumni/static/media/bg_img1.73155c6ee6ad1d49e43d.png",
     "static/media/bg_img2.png": "/jnu-alumni/static/media/bg_img2.cae6baf0269bba4ffff7.png",
@@ -29,10 +29,10 @@
     "static/media/searchIcon.svg": "/jnu-alumni/static/media/searchIcon.6b0393ddaa745bae83fce37c66968553.svg",
     "static/media/Comment icon.svg": "/jnu-alumni/static/media/Comment icon.99981409f0a9109ab88d7453e10daf7b.svg",
     "main.1163efd8.css.map": "/jnu-alumni/static/css/main.1163efd8.css.map",
-    "main.6b19b2c7.js.map": "/jnu-alumni/static/js/main.6b19b2c7.js.map"
+    "main.93aa0378.js.map": "/jnu-alumni/static/js/main.93aa0378.js.map"
   },
   "entrypoints": [
     "static/css/main.1163efd8.css",
-    "static/js/main.6b19b2c7.js"
+    "static/js/main.93aa0378.js"
   ]
 }
